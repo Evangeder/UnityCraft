@@ -1,0 +1,16 @@
+{
+    "name": "UnityCraft.Assets",
+    "rootNamespace": "",
+    "references": [
+        "GUID:429b687dc1395934199ca9ebf330262f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

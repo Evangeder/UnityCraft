@@ -1,0 +1,16 @@
+{
+    "name": "UnityCraft.Utility",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0098724e988b8b14d8a97f54d663a398"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

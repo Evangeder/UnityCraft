@@ -1,0 +1,20 @@
+{
+    "name": "UnityCraft.World",
+    "rootNamespace": "",
+    "references": [
+        "GUID:597e8a6fc4c277345a5221fb96f42c32",
+        "GUID:f644caafd3d8624469f980f5ca7c8dc8",
+        "GUID:775db2ed5b794da4db9c339d0cf8803d",
+        "GUID:eb84b46b54bb35144a53d5ff38844754",
+        "GUID:d8b63aba1907145bea998dd612889d6b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

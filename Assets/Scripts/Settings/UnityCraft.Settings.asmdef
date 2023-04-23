@@ -1,0 +1,18 @@
+{
+    "name": "UnityCraft.Settings",
+    "rootNamespace": "",
+    "references": [
+        "GUID:597e8a6fc4c277345a5221fb96f42c32",
+        "GUID:f644caafd3d8624469f980f5ca7c8dc8",
+        "GUID:429b687dc1395934199ca9ebf330262f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

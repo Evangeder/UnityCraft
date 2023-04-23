@@ -1,0 +1,16 @@
+{
+    "name": "UnityCraft.Networking",
+    "rootNamespace": "",
+    "references": [
+        "GUID:eb84b46b54bb35144a53d5ff38844754"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

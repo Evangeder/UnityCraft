@@ -1,0 +1,20 @@
+{
+    "name": "UnityCraft.Light",
+    "rootNamespace": "",
+    "references": [
+        "GUID:429b687dc1395934199ca9ebf330262f",
+        "GUID:eb84b46b54bb35144a53d5ff38844754",
+        "GUID:597e8a6fc4c277345a5221fb96f42c32",
+        "GUID:c64830c7d67463144ab1aa23a6ad364e",
+        "GUID:d8b63aba1907145bea998dd612889d6b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

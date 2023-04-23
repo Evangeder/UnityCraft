@@ -1,0 +1,19 @@
+{
+    "name": "UnityCraft.Generation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:597e8a6fc4c277345a5221fb96f42c32",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:f644caafd3d8624469f980f5ca7c8dc8",
+        "GUID:0098724e988b8b14d8a97f54d663a398"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

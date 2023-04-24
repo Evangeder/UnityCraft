@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace UnityCraft.UI.MainMenu.Views
+namespace UnityCraft.UI.Shared.Views
 {
     public class LoadingView : BaseView
     {

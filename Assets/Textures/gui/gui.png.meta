@@ -126,7 +126,7 @@ TextureImporter:
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 2, z: 2, w: 2}
+      border: {x: 4, y: 2, z: 2, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -147,7 +147,7 @@ TextureImporter:
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 2, z: 2, w: 2}
+      border: {x: 4, y: 2, z: 2, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -162,13 +162,13 @@ TextureImporter:
       name: Button_Hover
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 150
-        width: 198
+        width: 200
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 2, z: 2, w: 2}
+      border: {x: 4, y: 2, z: 2, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0

@@ -10,14 +10,11 @@ namespace UnityCraft.Networking.API
 
         public async Task<ServerApiResult> Fetch()
         {
-            string json;
-
             using (WebClient client = new WebClient())
             {
-                json = await client.DownloadStringTaskAsync(API_SITE);
+                string json = await client.DownloadStringTaskAsync(API_SITE);
+                return JsonConvert.DeserializeObject<ServerApiResult>(json);
             }
-
-            return JsonConvert.DeserializeObject<ServerApiResult>(json);
         }
     }
 }

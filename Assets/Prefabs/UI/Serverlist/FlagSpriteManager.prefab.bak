@@ -1,0 +1,1144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4080409105893247441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4080409105893247442}
+  - component: {fileID: 4080409105893247443}
+  m_Layer: 5
+  m_Name: FlagSpriteManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4080409105893247442
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4080409105893247441}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4080409105893247443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4080409105893247441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b8097cfa67a1c4487bcca45b51ec97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flags:
+  - name: andorra
+    code1: and
+    code2: ad
+    sprite: {fileID: 122730158, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: united-arab-emirates
+    code1: are
+    code2: ae
+    sprite: {fileID: -130318182, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: afghanistan
+    code1: afg
+    code2: af
+    sprite: {fileID: 133850358, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: antigua-and-barbuda
+    code1: atg
+    code2: ag
+    sprite: {fileID: 1455534892, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: anguilla
+    code1: aia
+    code2: ai
+    sprite: {fileID: -1917828693, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: albania
+    code1: alb
+    code2: al
+    sprite: {fileID: -965173670, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: armenia
+    code1: arm
+    code2: am
+    sprite: {fileID: -485995711, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: netherlands-antilles
+    code1: ant
+    code2: an
+    sprite: {fileID: 1366499073, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: angola
+    code1: ago
+    code2: ao
+    sprite: {fileID: 1381148985, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: argentina
+    code1: arg
+    code2: ar
+    sprite: {fileID: 1969198047, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: american-samoa
+    code1: asm
+    code2: as
+    sprite: {fileID: 1232348337, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: austria
+    code1: aut
+    code2: at
+    sprite: {fileID: -238650956, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: australia
+    code1: aus
+    code2: au
+    sprite: {fileID: -185402297, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: aruba
+    code1: abw
+    code2: aw
+    sprite: {fileID: -1932422842, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: azerbaijan
+    code1: aze
+    code2: az
+    sprite: {fileID: -931537387, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bosnia-and-erzegovina
+    code1: bih
+    code2: ba
+    sprite: {fileID: 1720736077, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: barbados
+    code1: brb
+    code2: bb
+    sprite: {fileID: -1077027023, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bangladesh
+    code1: bgd
+    code2: bd
+    sprite: {fileID: 357935901, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: belgium
+    code1: bel
+    code2: be
+    sprite: {fileID: -1188579926, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: burkina-faso
+    code1: bfa
+    code2: bf
+    sprite: {fileID: -43546960, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: andorra
+    code1: and
+    code2: ad
+    sprite: {fileID: 122730158, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: united-arab-emirates
+    code1: are
+    code2: ae
+    sprite: {fileID: -130318182, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: afghanistan
+    code1: afg
+    code2: af
+    sprite: {fileID: 133850358, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: antigua-and-barbuda
+    code1: atg
+    code2: ag
+    sprite: {fileID: 1455534892, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: anguilla
+    code1: aia
+    code2: ai
+    sprite: {fileID: -1917828693, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: albania
+    code1: alb
+    code2: al
+    sprite: {fileID: -965173670, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: armenia
+    code1: arm
+    code2: am
+    sprite: {fileID: -485995711, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: netherlands-antilles
+    code1: ant
+    code2: an
+    sprite: {fileID: 1366499073, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: angola
+    code1: ago
+    code2: ao
+    sprite: {fileID: 1381148985, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: argentina
+    code1: arg
+    code2: ar
+    sprite: {fileID: 1969198047, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: american-samoa
+    code1: asm
+    code2: as
+    sprite: {fileID: 1232348337, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: austria
+    code1: aut
+    code2: at
+    sprite: {fileID: -238650956, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: australia
+    code1: aus
+    code2: au
+    sprite: {fileID: -185402297, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: aruba
+    code1: abw
+    code2: aw
+    sprite: {fileID: -1932422842, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: azerbaijan
+    code1: aze
+    code2: az
+    sprite: {fileID: -931537387, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bosnia-and-erzegovina
+    code1: bih
+    code2: ba
+    sprite: {fileID: 1720736077, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: barbados
+    code1: brb
+    code2: bb
+    sprite: {fileID: -1077027023, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bangladesh
+    code1: bgd
+    code2: bd
+    sprite: {fileID: 357935901, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: belgium
+    code1: bel
+    code2: be
+    sprite: {fileID: -1188579926, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: burkina-faso
+    code1: bfa
+    code2: bf
+    sprite: {fileID: -43546960, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bulgaria
+    code1: bgr
+    code2: bg
+    sprite: {fileID: -1463717014, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bahrain
+    code1: bhr
+    code2: bh
+    sprite: {fileID: 153731106, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: burundi
+    code1: bdi
+    code2: bi
+    sprite: {fileID: -696464465, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: benin
+    code1: ben
+    code2: bj
+    sprite: {fileID: -161485644, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bermuda
+    code1: bmu
+    code2: bm
+    sprite: {fileID: 1199135051, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: brunei-darussalam
+    code1: brn
+    code2: bn
+    sprite: {fileID: 202052802, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bolivia
+    code1: bol
+    code2: bo
+    sprite: {fileID: 31181830, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: brazil
+    code1: bra
+    code2: br
+    sprite: {fileID: 796164957, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bahamas
+    code1: bhs
+    code2: bs
+    sprite: {fileID: 1677525893, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bhutan
+    code1: btn
+    code2: bt
+    sprite: {fileID: 2077629330, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: bouvet-island
+    code1: bvt
+    code2: bv
+    sprite: {fileID: 836854867, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: botswana
+    code1: bwa
+    code2: bw
+    sprite: {fileID: -1585357479, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: belarus
+    code1: blr
+    code2: by
+    sprite: {fileID: -1672241673, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: belize
+    code1: blz
+    code2: bz
+    sprite: {fileID: -454769930, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: canada
+    code1: can
+    code2: ca
+    sprite: {fileID: -1695107041, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: catalonia
+    code1: ctl
+    code2: ct
+    sprite: {fileID: 2068313150, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: congo
+    code1: cod
+    code2: cd
+    sprite: {fileID: 633605654, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: central-african-republic
+    code1: caf
+    code2: cf
+    sprite: {fileID: 622842631, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: brazzaville
+    code1: cog
+    code2: cg
+    sprite: {fileID: 570232656, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: switzerland
+    code1: che
+    code2: ch
+    sprite: {fileID: -976445650, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: cote-d-ivoire
+    code1: civ
+    code2: ci
+    sprite: {fileID: -1058845164, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: cook-islands
+    code1: cok
+    code2: ck
+    sprite: {fileID: -856324784, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: chile
+    code1: chl
+    code2: cl
+    sprite: {fileID: -1207003064, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: cameroon
+    code1: cmr
+    code2: cm
+    sprite: {fileID: -2102724412, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: china
+    code1: chn
+    code2: cn
+    sprite: {fileID: -1133973983, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: colombia
+    code1: col
+    code2: co
+    sprite: {fileID: 1517528818, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: costa-rica
+    code1: cri
+    code2: cr
+    sprite: {fileID: 808410665, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: cuba
+    code1: cub
+    code2: cu
+    sprite: {fileID: 1368975072, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: cape-verde
+    code1: cpv
+    code2: cv
+    sprite: {fileID: -274444246, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: curacao
+    code1: cuw
+    code2: cw
+    sprite: {fileID: -1391306164, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: cypros
+    code1: cyp
+    code2: cy
+    sprite: {fileID: -1018954753, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: czech-republic
+    code1: cze
+    code2: cz
+    sprite: {fileID: 1545491781, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: germany
+    code1: deu
+    code2: de
+    sprite: {fileID: -1407040416, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: djibouti
+    code1: dji
+    code2: dj
+    sprite: {fileID: 461956182, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: denmark
+    code1: dnk
+    code2: dk
+    sprite: {fileID: -2026260171, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: dominica
+    code1: dma
+    code2: dm
+    sprite: {fileID: -1567170928, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: dominican-republic
+    code1: dom
+    code2: do
+    sprite: {fileID: -533155634, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: algeria
+    code1: dza
+    code2: dz
+    sprite: {fileID: 889659646, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: ecuador
+    code1: ecu
+    code2: ec
+    sprite: {fileID: 400220165, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: estonia
+    code1: est
+    code2: ee
+    sprite: {fileID: -1545296841, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: egypt
+    code1: egy
+    code2: eg
+    sprite: {fileID: 152970153, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: western-sahara
+    code1: esh
+    code2: eh
+    sprite: {fileID: 1006956088, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: england
+    code1: eng
+    code2: en
+    sprite: {fileID: 220047525, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: eritrea
+    code1: eri
+    code2: er
+    sprite: {fileID: 1462260532, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: spain
+    code1: esp
+    code2: es
+    sprite: {fileID: -880852373, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: ethiopia
+    code1: eth
+    code2: et
+    sprite: {fileID: -366021320, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: europe
+    code1: eur
+    code2: eu
+    sprite: {fileID: -1762691486, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: finland
+    code1: fin
+    code2: fi
+    sprite: {fileID: 566165691, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: fiji
+    code1: fji
+    code2: fj
+    sprite: {fileID: 1022619490, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: falkland-islands
+    code1: flk
+    code2: fk
+    sprite: {fileID: 1922473175, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: micronesia
+    code1: fsm
+    code2: fm
+    sprite: {fileID: -1146326862, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: faroe-islands
+    code1: fro
+    code2: fo
+    sprite: {fileID: 1911724478, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: france
+    code1: fra
+    code2: fr
+    sprite: {fileID: -1435211586, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: gabon
+    code1: gab
+    code2: ga
+    sprite: {fileID: 811488687, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: united-kingdom
+    code1: gbr
+    code2: gb
+    sprite: {fileID: 445404686, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: grenada
+    code1: grd
+    code2: gd
+    sprite: {fileID: 1586125045, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: georgia
+    code1: ka
+    code2: ge
+    sprite: {fileID: 259580156, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: french-guiana
+    code1: guf
+    code2: gf
+    sprite: {fileID: 581138046, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: guernsey
+    code1: ggy
+    code2: gg
+    sprite: {fileID: -1204563476, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: ghana
+    code1: gha
+    code2: gh
+    sprite: {fileID: 1649481941, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: gibraltar
+    code1: gib
+    code2: gi
+    sprite: {fileID: -1553193825, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: greenland
+    code1: grl
+    code2: gl
+    sprite: {fileID: -1620794749, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: gambia
+    code1: gmb
+    code2: gm
+    sprite: {fileID: -977417182, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: guinea
+    code1: gin
+    code2: gn
+    sprite: {fileID: 1163306592, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: guadeloupe
+    code1: glp
+    code2: gp
+    sprite: {fileID: -1229706026, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: equatorial-guinea
+    code1: gnq
+    code2: gq
+    sprite: {fileID: -1220380223, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: greece
+    code1: grc
+    code2: gr
+    sprite: {fileID: -1641873565, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: south-georgia-and-the-south-sandwich-islands
+    code1: sgs
+    code2: gs
+    sprite: {fileID: 878288461, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: guatemala
+    code1: gtm
+    code2: gt
+    sprite: {fileID: 717850869, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: guam
+    code1: gum
+    code2: gu
+    sprite: {fileID: -1256749442, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: guinea-bissau
+    code1: gnb
+    code2: gw
+    sprite: {fileID: 252070162, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: guyana
+    code1: guy
+    code2: gy
+    sprite: {fileID: -334449291, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: hong-kong
+    code1: hkg
+    code2: hk
+    sprite: {fileID: 1723704778, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: heard-island-and-mcdonald-islands
+    code1: hmd
+    code2: hm
+    sprite: {fileID: 1471530660, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: honduras
+    code1: hnd
+    code2: hn
+    sprite: {fileID: -475409978, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: croatia
+    code1: hrv
+    code2: hr
+    sprite: {fileID: 2043782652, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: haiti
+    code1: hti
+    code2: ht
+    sprite: {fileID: 2100777626, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: hungary
+    code1: hun
+    code2: hu
+    sprite: {fileID: 1371428481, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: canary-islands
+    code1: cic
+    code2: ic
+    sprite: {fileID: 1133277312, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: indonesia
+    code1: idn
+    code2: id
+    sprite: {fileID: 1827618159, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: ireland
+    code1: irl
+    code2: ie
+    sprite: {fileID: 1412718731, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: israel
+    code1: isr
+    code2: il
+    sprite: {fileID: -880713138, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: isle-of-man
+    code1: imn
+    code2: im
+    sprite: {fileID: -1333670844, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: india
+    code1: ind
+    code2: in
+    sprite: {fileID: 564635342, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: british-indian-ocean-territory
+    code1: iot
+    code2: io
+    sprite: {fileID: 453966402, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: iraq
+    code1: irq
+    code2: iq
+    sprite: {fileID: -226514445, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: iran
+    code1: irn
+    code2: ir
+    sprite: {fileID: 1668345861, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: iceland
+    code1: isl
+    code2: is
+    sprite: {fileID: 2005173751, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: italy
+    code1: ita
+    code2: it
+    sprite: {fileID: -993397632, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: jersey
+    code1: jey
+    code2: je
+    sprite: {fileID: 568105278, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: jamaica
+    code1: jam
+    code2: jm
+    sprite: {fileID: 299424769, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: jordan
+    code1: jor
+    code2: jo
+    sprite: {fileID: -1650506891, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: japan
+    code1: jpn
+    code2: jp
+    sprite: {fileID: 3721252, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: kenya
+    code1: ken
+    code2: ke
+    sprite: {fileID: -737786404, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: kyrgyzstan
+    code1: kgz
+    code2: kg
+    sprite: {fileID: -876547625, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: cambodia
+    code1: khm
+    code2: kh
+    sprite: {fileID: 1984330106, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: kiribati
+    code1: kir
+    code2: ki
+    sprite: {fileID: 237390132, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: comoros
+    code1: com
+    code2: km
+    sprite: {fileID: 110278930, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: saint-kitts-and-nevis
+    code1: kna
+    code2: kn
+    sprite: {fileID: -1906719254, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: north-korea
+    code1: prk
+    code2: kp
+    sprite: {fileID: 407287363, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: south-korea
+    code1: kor
+    code2: kr
+    sprite: {fileID: -810385436, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: kurdistan
+    code1: krd
+    code2: kd
+    sprite: {fileID: 1921892520, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: kuwait
+    code1: kwt
+    code2: kw
+    sprite: {fileID: 1521327257, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: cayman-islands
+    code1: cym
+    code2: ky
+    sprite: {fileID: -646838618, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: kazakhstan
+    code1: kaz
+    code2: kz
+    sprite: {fileID: -243500914, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: lao-pdr
+    code1: lao
+    code2: la
+    sprite: {fileID: 661645889, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: lebanon
+    code1: lbn
+    code2: lb
+    sprite: {fileID: 567351638, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: saint-lucia
+    code1: lca
+    code2: lc
+    sprite: {fileID: 328169811, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: liechtenstein
+    code1: lie
+    code2: li
+    sprite: {fileID: 1504447266, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: sri-lanka
+    code1: lka
+    code2: lk
+    sprite: {fileID: -2071779234, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: liberia
+    code1: lbr
+    code2: lr
+    sprite: {fileID: -1545754950, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: lesotho
+    code1: lso
+    code2: ls
+    sprite: {fileID: -182897164, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: lithuania
+    code1: ltu
+    code2: lt
+    sprite: {fileID: -1657590621, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: luxembourg
+    code1: lux
+    code2: lu
+    sprite: {fileID: 1795620376, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: latvia
+    code1: lva
+    code2: lv
+    sprite: {fileID: 1329682293, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: libya
+    code1: lby
+    code2: ly
+    sprite: {fileID: 800771117, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: morocco
+    code1: mar
+    code2: ma
+    sprite: {fileID: -1598510123, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: monaco
+    code1: mco
+    code2: mc
+    sprite: {fileID: 85632804, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: moldova
+    code1: mda
+    code2: md
+    sprite: {fileID: -1037236274, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: montenegro
+    code1: mne
+    code2: me
+    sprite: {fileID: 1353863961, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: madagascar
+    code1: mdg
+    code2: mg
+    sprite: {fileID: 1942128484, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: marshall-islands
+    code1: mhl
+    code2: mh
+    sprite: {fileID: 595628259, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: macedonia
+    code1: mkd
+    code2: mk
+    sprite: {fileID: -1505139159, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: mali
+    code1: mli
+    code2: ml
+    sprite: {fileID: -2137049527, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: myanmar
+    code1: mmr
+    code2: mm
+    sprite: {fileID: -1696343421, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: mongolia
+    code1: mng
+    code2: mn
+    sprite: {fileID: -601616556, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: macao
+    code1: mac
+    code2: mo
+    sprite: {fileID: 278610772, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: northern-mariana-islands
+    code1: mnp
+    code2: mp
+    sprite: {fileID: 103438248, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: martinique
+    code1: mtq
+    code2: mq
+    sprite: {fileID: -673237968, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: mauritania
+    code1: mrt
+    code2: mr
+    sprite: {fileID: -91885758, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: montserrat
+    code1: msr
+    code2: ms
+    sprite: {fileID: -2010169747, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: malta
+    code1: mlt
+    code2: mt
+    sprite: {fileID: -1628454285, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: mauritius
+    code1: mus
+    code2: mu
+    sprite: {fileID: -1147090309, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: maldives
+    code1: mdv
+    code2: mv
+    sprite: {fileID: -7594655, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: malawi
+    code1: mwi
+    code2: mw
+    sprite: {fileID: 246979928, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: mexico
+    code1: mex
+    code2: mx
+    sprite: {fileID: -1250979848, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: malaysia
+    code1: mys
+    code2: my
+    sprite: {fileID: -615473135, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: mozambique
+    code1: moz
+    code2: mz
+    sprite: {fileID: -1058496187, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: namibia
+    code1: nam
+    code2: na
+    sprite: {fileID: 701231734, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: new-caledonia
+    code1: ncl
+    code2: nc
+    sprite: {fileID: -1621190760, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: niger
+    code1: ner
+    code2: ne
+    sprite: {fileID: -318171207, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: norfolk-island
+    code1: nfk
+    code2: nf
+    sprite: {fileID: -422257345, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: nigeria
+    code1: nga
+    code2: ng
+    sprite: {fileID: -1895671233, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: nicaragua
+    code1: nic
+    code2: ni
+    sprite: {fileID: -153648713, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: netherlands
+    code1: nld
+    code2: nl
+    sprite: {fileID: -1326904170, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: norway
+    code1: nor
+    code2: no
+    sprite: {fileID: 318822204, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: nepal
+    code1: npl
+    code2: np
+    sprite: {fileID: 1566787029, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: nauru
+    code1: nru
+    code2: nr
+    sprite: {fileID: -96566284, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: niue
+    code1: niu
+    code2: nu
+    sprite: {fileID: 1165495822, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: new-zealand
+    code1: nzl
+    code2: nz
+    sprite: {fileID: -715205983, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: oman
+    code1: omn
+    code2: om
+    sprite: {fileID: 1039885686, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: panama
+    code1: pan
+    code2: pa
+    sprite: {fileID: -1906639085, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: peru
+    code1: per
+    code2: pe
+    sprite: {fileID: 18655910, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: french-polynesia
+    code1: pyf
+    code2: pf
+    sprite: {fileID: 108869141, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: papua-new-guinea
+    code1: png
+    code2: pg
+    sprite: {fileID: 776919486, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: philippines
+    code1: phl
+    code2: ph
+    sprite: {fileID: 1684239718, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: pakistan
+    code1: pak
+    code2: pk
+    sprite: {fileID: -1886585930, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: poland
+    code1: pol
+    code2: pl
+    sprite: {fileID: -390444489, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: saint-pierre-and-miquelon
+    code1: spm
+    code2: pm
+    sprite: {fileID: -1804103740, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: pitcairn
+    code1: pcn
+    code2: pn
+    sprite: {fileID: -1940306592, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: puerto-rico
+    code1: pri
+    code2: pr
+    sprite: {fileID: 951928764, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: palestinian-territory
+    code1: pse
+    code2: ps
+    sprite: {fileID: -1114773166, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: portugal
+    code1: prt
+    code2: pt
+    sprite: {fileID: -876599234, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: palau
+    code1: plw
+    code2: pw
+    sprite: {fileID: 692698802, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: paraguay
+    code1: pry
+    code2: py
+    sprite: {fileID: 869375547, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: qatar
+    code1: qat
+    code2: qa
+    sprite: {fileID: -1266568173, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: reunion
+    code1: reu
+    code2: re
+    sprite: {fileID: 1308754853, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: romania
+    code1: rou
+    code2: ro
+    sprite: {fileID: 568709569, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: serbia
+    code1: srb
+    code2: rs
+    sprite: {fileID: 1883081536, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: russia
+    code1: rus
+    code2: ru
+    sprite: {fileID: 82347306, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: rwanda
+    code1: rwa
+    code2: rw
+    sprite: {fileID: 600755922, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: saudi-arabia
+    code1: sau
+    code2: sa
+    sprite: {fileID: 1326032696, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: solomon-islands
+    code1: slb
+    code2: sb
+    sprite: {fileID: -1318414071, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: seychelles
+    code1: syc
+    code2: sc
+    sprite: {fileID: -316199684, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: scotland
+    code1: sco
+    code2: sq
+    sprite: {fileID: 1669940684, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: sudan
+    code1: sdn
+    code2: sd
+    sprite: {fileID: -2055709760, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: sweden
+    code1: swe
+    code2: se
+    sprite: {fileID: 976100128, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: singapore
+    code1: sgp
+    code2: sg
+    sprite: {fileID: 1025461085, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: saint-helena
+    code1: shn
+    code2: sh
+    sprite: {fileID: 824261060, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: slovenia
+    code1: svn
+    code2: si
+    sprite: {fileID: 1475101671, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: slovakia
+    code1: svk
+    code2: sk
+    sprite: {fileID: -1505942374, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: sierra-leone
+    code1: sle
+    code2: sl
+    sprite: {fileID: -1625858968, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: san-marino
+    code1: smr
+    code2: sm
+    sprite: {fileID: 1531269814, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: senegal
+    code1: sen
+    code2: sn
+    sprite: {fileID: 2091381363, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: somalia
+    code1: som
+    code2: so
+    sprite: {fileID: 215424594, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: somaliland
+    code1: sml
+    code2: sw
+    sprite: {fileID: 1436099932, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: suriname
+    code1: sur
+    code2: sr
+    sprite: {fileID: -2138589770, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: south-sudan
+    code1: ssd
+    code2: ss
+    sprite: {fileID: 1253302124, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: sao-tome-and-principe
+    code1: stp
+    code2: st
+    sprite: {fileID: 688365613, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: el-salvador
+    code1: slv
+    code2: sv
+    sprite: {fileID: -791887393, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: sint-maarten
+    code1: sxm
+    code2: sx
+    sprite: {fileID: -1290810909, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: syria
+    code1: syr
+    code2: sy
+    sprite: {fileID: 1032549440, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: swaziland
+    code1: swz
+    code2: sz
+    sprite: {fileID: 1532104450, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: turks-and-caicos-islands
+    code1: tca
+    code2: tc
+    sprite: {fileID: 740167085, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: chad
+    code1: tcd
+    code2: td
+    sprite: {fileID: 927768923, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: french-southern-territories
+    code1: atf
+    code2: tf
+    sprite: {fileID: -491414570, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: togo
+    code1: tgo
+    code2: tg
+    sprite: {fileID: -844833767, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: thailand
+    code1: tha
+    code2: th
+    sprite: {fileID: 890283983, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: tibet
+    code1: tbt
+    code2: tb
+    sprite: {fileID: 1261747764, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: tajikistan
+    code1: tjk
+    code2: tj
+    sprite: {fileID: -1969564671, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: tokelau
+    code1: tkl
+    code2: tk
+    sprite: {fileID: 1945096137, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: timor-leste
+    code1: tls
+    code2: tl
+    sprite: {fileID: -1524261124, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: turkmenistan
+    code1: tkm
+    code2: tm
+    sprite: {fileID: 1322506480, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: tunisia
+    code1: tun
+    code2: tn
+    sprite: {fileID: 1644989242, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: tonga
+    code1: ton
+    code2: to
+    sprite: {fileID: -1506502549, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: turkey
+    code1: tur
+    code2: tr
+    sprite: {fileID: -677710881, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: trinidad-and-tobago
+    code1: tto
+    code2: tt
+    sprite: {fileID: 467980871, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: tuvalu
+    code1: tuv
+    code2: tv
+    sprite: {fileID: 974493220, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: taiwan
+    code1: twn
+    code2: tw
+    sprite: {fileID: 1630221567, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: tanzania
+    code1: tza
+    code2: tz
+    sprite: {fileID: -1840296843, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: ukraine
+    code1: ukr
+    code2: ua
+    sprite: {fileID: -1984579159, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: uganda
+    code1: uga
+    code2: ug
+    sprite: {fileID: 872208507, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: united-states-minor-outlying-islands
+    code1: umi
+    code2: um
+    sprite: {fileID: 1975044584, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: united-states-of-america
+    code1: usa
+    code2: us
+    sprite: {fileID: 1959858525, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: uruguay
+    code1: ury
+    code2: uy
+    sprite: {fileID: 1653435356, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: uzbekistan
+    code1: uzb
+    code2: uz
+    sprite: {fileID: -237423346, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: vatican
+    code1: vat
+    code2: va
+    sprite: {fileID: 904202009, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: saint-vincent-and-grenadines
+    code1: vct
+    code2: vc
+    sprite: {fileID: 663432681, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: venezuela
+    code1: ven
+    code2: ve
+    sprite: {fileID: -1880989666, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: british-virgin-islands
+    code1: vgb
+    code2: vg
+    sprite: {fileID: 2017947766, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: virgin-islands
+    code1: vir
+    code2: vi
+    sprite: {fileID: -1218275086, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: vietnam
+    code1: vnm
+    code2: vn
+    sprite: {fileID: -384594076, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: vanuatu
+    code1: vut
+    code2: vu
+    sprite: {fileID: -1567364274, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: wales
+    code1: wls
+    code2: wa
+    sprite: {fileID: 1974867155, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: wallis-and-futuna-islands
+    code1: wlf
+    code2: wf
+    sprite: {fileID: -858695781, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: samoa
+    code1: wsm
+    code2: ws
+    sprite: {fileID: -316068854, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: kosovo
+    code1: xkx
+    code2: xk
+    sprite: {fileID: 217275224, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: yemen
+    code1: yem
+    code2: ye
+    sprite: {fileID: -1014298102, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: mayotte
+    code1: myt
+    code2: yt
+    sprite: {fileID: 13862965, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: south-africa
+    code1: zaf
+    code2: za
+    sprite: {fileID: -677872250, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: zanzibar
+    code1: znz
+    code2: zn
+    sprite: {fileID: -1378770876, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: zambia
+    code1: zmb
+    code2: zm
+    sprite: {fileID: -1888823013, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}
+  - name: zimbabwe
+    code1: zwe
+    code2: zw
+    sprite: {fileID: -1656624784, guid: 82c0c49f8f3532a47b958c0d8fda7891, type: 3}

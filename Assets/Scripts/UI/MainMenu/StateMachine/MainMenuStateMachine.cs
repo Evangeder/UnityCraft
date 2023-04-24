@@ -1,20 +1,22 @@
 using UnityEngine;
 
-namespace UnityCraft.Patterns.StateMachine
+namespace UnityCraft.UI.MainMenu.StateMachine
 {
-    public abstract class StateMachine : MonoBehaviour
-    {
-        protected BaseState currentState;
+    using Patterns.StateMachine;
+    using MainMenu;
+    using States;
 
-        private void Update()
+    public class MainMenuStateMachine : StateMachine
+    {
+        [field: SerializeField]
+        public UIRoot UIRoot { get; private set; }
+
+        private void Start()
         {
-            if (currentState != null)
-            {
-                currentState.UpdateState();
-            }
+            ChangeState(new MenuState(UIRoot.MenuView) { Owner = this });
         }
 
-        public virtual void ChangeState(BaseState state)
+        public override void ChangeState(BaseState state)
         {
             if (currentState != null)
             {

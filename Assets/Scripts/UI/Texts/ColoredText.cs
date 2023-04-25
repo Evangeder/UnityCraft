@@ -64,6 +64,7 @@ namespace UnityCraft.UI.Texts
                         sb.Append(value[i]);
                     }
 
+                    // close last color tag
                     if (wasColorFlagTriggered)
                     {
                         sb.Append(COLOR_END_TAG);

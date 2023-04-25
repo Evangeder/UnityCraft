@@ -27,5 +27,7 @@ namespace UnityCraft.UI.MainMenu
 
         [field: SerializeField]
         public MultiplayerView MultiplayerView { get; private set; }
+        [field: SerializeField]
+        public LoginView LoginView { get; private set; }
     }
 }

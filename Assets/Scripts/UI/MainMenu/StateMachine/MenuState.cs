@@ -1,6 +1,6 @@
 namespace UnityCraft.UI.MainMenu.StateMachine.States
 {
-    using Shared.StateMachine.States;
+    using Networking.API;
     using MainMenu.Views;
     using UnityEngine;
 
@@ -35,7 +35,14 @@ namespace UnityCraft.UI.MainMenu.StateMachine.States
 
         private void NavigateToMultiplayer()
         {
-            Owner.ChangeState(new MultiplayerState(Owner.UIRoot.MultiplayerView) { Owner = Owner });
+            if (ClassicubeApi.Instance.PlayerLoggedIn)
+            {
+                Owner.ChangeState(new MultiplayerState(Owner.UIRoot.MultiplayerView) { Owner = Owner });
+            }
+            else
+            {
+                Owner.ChangeState(new LoginState(Owner.UIRoot.LoginView) { Owner = Owner });
+            }
         }
 
         private void NavigateToSettings()

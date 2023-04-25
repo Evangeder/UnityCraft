@@ -12,8 +12,6 @@ namespace UnityCraft.UI.MainMenu.Components
         private Server serverComponentPrefab;
         [SerializeField]
         private Transform instantiationTarget;
-        [SerializeField]
-        private GameObject hamburgerLoading;
         private List<Server> instantiatedObjects;
 
         private async void OnEnable()
@@ -30,17 +28,14 @@ namespace UnityCraft.UI.MainMenu.Components
         {
             instantiatedObjects = new();
 
-            hamburgerLoading.SetActive(true);
-            var serverApiResponse = await new ServerApi().Fetch();
-            serverApiResponse.SortByPlayersOnline();
+            var servers = await ClassicubeApi.Instance.ShowServerList();
 
-            foreach (var serverData in serverApiResponse.servers)
+            foreach (var serverData in servers)
             {
                 var server = Instantiate(serverComponentPrefab, instantiationTarget);
                 server.ShowInfo(serverData);
                 instantiatedObjects.Add(server);
             }
-            hamburgerLoading.SetActive(false);
         }
 
         public void ClearServerlist()

@@ -2,7 +2,8 @@
     "name": "UnityCraft.Networking",
     "rootNamespace": "",
     "references": [
-        "GUID:eb84b46b54bb35144a53d5ff38844754"
+        "GUID:eb84b46b54bb35144a53d5ff38844754",
+        "GUID:429b687dc1395934199ca9ebf330262f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

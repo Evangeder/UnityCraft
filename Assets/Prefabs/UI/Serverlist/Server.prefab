@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -77.000015, y: 3}
-  m_SizeDelta: {x: -185.99998, y: -6.000001}
+  m_AnchoredPosition: {x: -102, y: 3}
+  m_SizeDelta: {x: -235.99998, y: -6.000001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &215363440661087912
 CanvasRenderer:
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
+  m_EffectColor: {r: 0.3764706, g: 0.3764706, b: 0.3764706, a: 1}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
 --- !u!1 &215363442367858515
@@ -517,7 +517,7 @@ PrefabInstance:
     - target: {fileID: 4152294600973874600, guid: aaf28d3ad09cefc4b949f4e607fba2f8,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 147
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4152294600973874600, guid: aaf28d3ad09cefc4b949f4e607fba2f8,
         type: 3}

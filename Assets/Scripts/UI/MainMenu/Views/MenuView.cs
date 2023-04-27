@@ -17,7 +17,5 @@ namespace UnityCraft.UI.MainMenu.Views
 
         [field: SerializeField]
         public Button QuitButton { get; private set; }
-        [field: SerializeField]
-        public ClassicubeApi ClassicubeApi { get; private set; }
     }
 }

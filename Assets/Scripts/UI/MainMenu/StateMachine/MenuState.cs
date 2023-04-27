@@ -30,7 +30,7 @@ namespace UnityCraft.UI.MainMenu.StateMachine.States
 
         private void NavigateToSingleplayer()
         {
-            //Owner.ChangeState(new SingleplayerState(Owner.UIRoot.SingleplayerView) { Owner = Owner });
+            Owner.ChangeState(new SingleplayerState(Owner.UIRoot.SingleplayerView) { Owner = Owner });
         }
 
         private void NavigateToMultiplayer()

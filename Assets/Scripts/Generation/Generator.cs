@@ -1,4 +1,3 @@
-using System.Collections;
 using Unity.Jobs;
 using Unity.Collections;
 using Unity.Mathematics;
@@ -23,31 +22,6 @@ namespace UnityCraft.Generation
         private GenerationTheme GenerationTheme;
         private JobHandle GenerationJobHandle;
 
-        private enum JobProperties : int
-        {
-            WaterLevel = 0,
-            GroundLevel = 1,
-            CloudHeight = 2,
-            SkyBrightness = 3,
-            SkylightSubtracted = 4
-        }
-
-        private enum JobColors : int
-        {
-            SkyRed = 0,
-            SkyGreen = 1,
-            SkyBlue = 2,
-            SkyAlpha = 3,
-            FogRed = 4,
-            FogGreen = 5,
-            FogBlue = 6,
-            FogAlpha = 7,
-            CloudRed = 8,
-            CloudGreen = 9,
-            CloudBlue = 10,
-            CloudAlpha = 11
-        }
-
         public Generator(int width, int height, int depth, GenerationShape shape, GenerationType type, GenerationTheme theme)
         {
             Width = width;
@@ -69,9 +43,9 @@ namespace UnityCraft.Generation
                 GenerationType = GenerationType,
                 GenerationShape = GenerationShape,
                 GenerationTheme = GenerationTheme,
-                //BlockData = ,
+                //BlockData = , // TODO
                 Blocks = blocks,
-                //Properties = ,
+                //Properties = , // TODO
             }.Schedule();
 
             while (!GenerationJobHandle.IsCompleted)
@@ -248,7 +222,7 @@ namespace UnityCraft.Generation
                         break;
                 }
 
-                //Assembling
+                //Assembling TODO
             }
 
             private void Raise(Random random, ref NativeArray<int> heightmap)

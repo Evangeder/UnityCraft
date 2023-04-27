@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -5595,13 +5595,13 @@ TextureImporter:
       venezuela: -1880989666
       cayman-islands: -646838618
       argentina: 1969198047
-      benin: -161485644
-      spain: -880852373
-      eritrea: 1462260532
       solomon-islands: -1318414071
+      spain: -880852373
+      benin: -161485644
       united-kingdom: 445404686
       nauru: -96566284
       iraq: -226514445
+      eritrea: 1462260532
       tonga: -1506502549
       malawi: 246979928
       bolivia: 31181830

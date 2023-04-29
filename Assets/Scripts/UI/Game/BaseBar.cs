@@ -1,26 +1,8 @@
-using System.Collections;
 using UnityEditor;
 using UnityEngine;
 
 namespace UnityCraft.UI.Game.Health
 {
-    [RequireComponent(typeof(BaseBar))]
-    [CustomEditor(typeof(BaseBar))]
-    public class BaseBarCustomEditor : Editor
-    {
-        private int health;
-        public override void OnInspectorGUI()
-        {
-            BaseBar baseBar = (BaseBar)target;
-
-            health = EditorGUILayout.IntSlider(health, 0, 20);
-            if (GUILayout.Button($"Set health to {health}"))
-                baseBar.UpdateBar((byte)health);
-
-            base.OnInspectorGUI();
-        }
-    }
-
     public class BaseBar : MonoBehaviour
     {
         [SerializeField]
@@ -35,14 +17,7 @@ namespace UnityCraft.UI.Game.Health
         public byte Max = 20;
         public BaseContainer[] Containers;
         public byte lastValue { get; private set; } = 20;
-        protected BaseHealthBarHurtAnimation BarHurtAnimation = new HealthBarHurtAnimationIndev();
-
-        // TODO: Remove this because of save system
-        // It's only for testing
-        private void Start()
-        {
-            CreateBar(Max);
-        }
+        protected BaseHealthBarHurtAnimation BarHurtAnimation = null;
 
         public void Subtract(byte value)
         {
